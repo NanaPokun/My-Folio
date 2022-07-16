@@ -1,3 +1,6 @@
+import { SiGithub, SiLinkedin, SiDevpost, SiMedium, SiHashnode, SiTwitter } from "react-icons/si";
+
+
 const Footer = () => {
     return (
         <div className="mt-12 lg:mt-18 sm:pb-36 sm:py-12 py-6">
@@ -7,52 +10,52 @@ const Footer = () => {
                     <span text-gray-900 font-semibold text-lg mr-2>Yawcodes</span>&copy; {new Date().getFullYear()} All Rights Reserved
                     <div className="flex flex-wrap pt-2 sm:space-x-4 space-x-2 font-medium lg:pt-0">
                         <a
-                            href="#"
+                            href="https://twitter.com/nanayaw_codes"
                             className={"transition-colors hover:text-yellow-500"}
                             target="_blank"
                             rel="noreferrer"
                         >
-                            Twitter
+                            <SiTwitter />
                         </a>
                         <a
-                            href="#"
+                            href="https://www.linkedin.com/in/felix-osei-1890401a1/"
                             className={"transition-colors hover:text-yellow-500"}
                             target="_blank"
                             rel="noreferrer"
                         >
-                            LinkedIn
+                            <SiLinkedin />
                         </a>
                         <a
-                            href="#"
+                            href="https://github.com/NanaPokun"
                             className={"transition-colors hover:text-yellow-500"}
                             target="_blank"
                             rel="noreferrer"
                         >
-                            GitHub
+                            <SiGithub />
                         </a>
                         <a
-                            href="#"
+                            href="https://medium.com/@nanaseipoku25"
                             className={"transition-colors hover:text-yellow-500"}
                             target="_blank"
                             rel="noreferrer"
                         >
-                            Medium
+                            <SiMedium />
                         </a>
                         <a
-                            href="#"
+                            href="https://dev.to/nanayaw_codes"
                             className={"transition-colors hover:text-yellow-500"}
                             target="_blank"
                             rel="noreferrer"
                         >
-                            DEV
+                            <SiDevpost />
                         </a>
                         <a
-                            href="#"
+                            href="https://nanapokun.hashnode.dev/"
                             className={"transition-colors hover:text-yellow-500"}
                             target="_blank"
                             rel="noreferrer"
                         >
-                            Hashnode
+                            <SiHashnode />
                         </a>
                     </div>
                 </div>
