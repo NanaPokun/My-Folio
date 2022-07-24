@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import About from "../components/About";
+import Hero from "../components/Hero";
 
 const Home: NextPage = () => {
   return (
@@ -11,7 +12,8 @@ const Home: NextPage = () => {
       </Head>
 
       <main className="max-w-4xl mx-auto mt-16 antialiased">
-       <About />
+       {/* <About /> */}
+       <Hero />
       </main>
     </div>
   )

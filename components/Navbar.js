@@ -22,19 +22,24 @@ const Navbar = () => {
         <nav className={"flex items-center justify-between flex-wrap bg-black-500 p-8"}>   
             <div className={"flex items-center flex-shrink-0 text-white mr-6"}>
                 <Link href="/">
-                    <a className={"font-semibold tracking-wider transition-colors text-xl-gray-950 hover:text-sky-500 uppercase dark:text-white"}>
-                        Felix Opoku Osei
+                    <a>
+                        <h1 className={"font-semibold tracking-wider transition-colors text-xl-gray-950 hover:text-sky-500 uppercase dark:text-white"}>
+                            Felix O. Osei
+                        </h1>
+                        <p className="text-xs font-light text-gray-500 dark:text-gray-200">
+                            Front End Developer
+                        </p>
                     </a>
                 </Link>
             </div>
             <div className={"w-full block flex-grow lg:flex lg:items-center lg:w-auto"}>
                 <div className={"text-lg lg:flex-grow"}>
-                    <Link href="/">
+                    <Link href="/about">
                         <a className={"block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-sky-500 mr-4"}>
                             About Me
                         </a>
                     </Link>
-                    <Link href="/">
+                    <Link href="/project">
                         <a className={"block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-sky-500 mr-4"}>
                             Projects
                         </a>
