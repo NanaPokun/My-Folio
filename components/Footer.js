@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import { 
     SiTwitter,
     SiLinkedin,
@@ -7,7 +6,6 @@ import {
     SiHashnode,
     SiMedium
  } from "react-icons/si";
-
 
 const Footer = () => {
     return (
@@ -64,52 +62,8 @@ const Footer = () => {
                             rel="noreferrer"
                         >
                             <SiHashnode/>
-                            className={"transition-colors hover:text-yellow-500"}
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <SiTwitter />
                         </a>
-                        <a
-                            href="https://www.linkedin.com/in/felix-osei-1890401a1/"
-                            className={"transition-colors hover:text-yellow-500"}
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <SiLinkedin />
-                        </a>
-                        <a
-                            href="https://github.com/NanaPokun"
-                            className={"transition-colors hover:text-yellow-500"}
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <SiGithub />
-                        </a>
-                        <a
-                            href="https://medium.com/@nanaseipoku25"
-                            className={"transition-colors hover:text-yellow-500"}
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <SiMedium />
-                        </a>
-                        <a
-                            href="https://dev.to/nanayaw_codes"
-                            className={"transition-colors hover:text-yellow-500"}
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <SiDevpost />
-                        </a>
-                        <a
-                            href="https://nanapokun.hashnode.dev/"
-                            className={"transition-colors hover:text-yellow-500"}
-                            target="_blank"
-                            rel="noreferrer"
-                        >
-                            <SiHashnode />
-                        </a>
+                            
                     </div>
                 </div>
             </div>
