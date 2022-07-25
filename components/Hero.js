@@ -5,13 +5,13 @@ export default function Hero() {
   return (
     <div className="flex flex-row justify-center items-start overflow-hidden">
         <div className="w-full md:w-4/5 mx-auto text-center md:text-left md:p-10">
-                    <h1 className="text-3xl md:text-8xl pb-3 font-bold text-gray-700 dark:text-gray-200 my-2 text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-sky-500">
+                    <h1 className="text-3xl md:text-8xl pb-3 font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
                         Developer
                     </h1>
-                    <h1 className="text-3xl md:text-8xl pb-3 font-bold text-gray-700 dark:text-gray-200 my-2 text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-sky-500">
+                    <h1 className="text-3xl md:text-8xl pb-3 font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600">
                         Designer
                     </h1>
-                    <h1 className="text-3xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2 text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-sky-500">
+                    <h1 className="text-3xl md:text-8xl font-extrabold text-transparent text-8xl bg-clip-text bg-gradient-to-r from-fuchsia-500 to-amber-400">
                         Digital Marketer
                     </h1>
         </div>
