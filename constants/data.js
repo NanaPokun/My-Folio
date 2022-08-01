@@ -4,9 +4,11 @@ const userData = {
     name: "Felix Osei",
     designation: "Front End Developer",
     avatarUrl: "/hero2.jpeg",
+    techstack: "/mern stack.png",
+    techstack1: "/techstack.jpeg",
     email: "nanaseipoku25@gmail.com",
     phone: "+233 2090 38788",
-    address: "Frafraha, Adenta, Accra-Ghana.",
+    address: "Adenta, Accra-Ghana.",
     projects: [
       {
         title: "IncTech",

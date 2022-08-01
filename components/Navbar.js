@@ -36,7 +36,7 @@ const Navbar = () => {
                 <div className={"text-lg lg:flex-grow"}>
                     <Link href="/about">
                         <a className={"block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-sky-500 mr-4"}>
-                            About Me
+                            About
                         </a>
                     </Link>
                     <Link href="/project">
@@ -53,7 +53,7 @@ const Navbar = () => {
                 <div>
                     <Link href="/contact">
                         <a className={"inline-block text-lg px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0"}>
-                            Contact Me
+                            Contact
                         </a>
                     </Link>
                 </div>
