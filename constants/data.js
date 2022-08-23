@@ -9,6 +9,12 @@ const userData = {
     email: "nanaseipoku25@gmail.com",
     phone: "+233 2090 38788",
     address: "Adenta, Accra-Ghana.",
+    design1: "/Chelsea.png",
+    design2: "/Kelewele_House Menu.png",
+    design3: "/GNS Countdown.png",
+    design4: "/Google listing.png",
+    design5: "/Barbie'sbites logo.png",
+    design6: "/Mikado Motors.png",
     projects: [
       {
         title: "IncTech",

@@ -44,7 +44,7 @@ const Navbar = () => {
                             Projects
                         </a>
                     </Link>
-                    <Link href="/">
+                    <Link href="/designs">
                         <a className={"block mt-4 lg:inline-block lg:mt-0 text-gray-600 hover:text-sky-500"}>
                             Designs
                         </a>
