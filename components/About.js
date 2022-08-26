@@ -2,6 +2,53 @@ import Image from "next/image";
 import profile from "../public/profile.png";
 import userData from "../constants/data";
 
+
+
+const experience = [
+    {
+        title: "General Manager",
+        company: "KIC",
+        year: "2022",
+        companyLink: "#",
+        desc: "Contributed to our EdTech programme",
+    },
+    {
+        title: "Freelancer",
+        company: "Upwork",
+        year: "2021",
+        companyLink: "#",
+        desc: "Developed scalable websites and applications using tools like React, Next, HTML",
+    },
+    {
+        title: "Founder and Developer",
+        company: "Space to Learn",
+        year: "2022",
+        companyLink: "#",
+        desc: "Taking the time to help young ones of various background to develop through technology to meet world demands",
+    },
+    {
+        title: "Internship",
+        company: "Fivver",
+        year: "2018",
+        companyLink: "https://www.fiverr.com/",
+        desc: "Developed and designed websites and UI/UX templates for development.",
+    },
+    {
+        title: "National Service",
+        company: "SODA, Dodowa.",
+        year: "2018",
+        companyLink: "#",
+        desc: "Assisted in all I.T related issues in the office and participated in data management in on-field activities.",
+    },
+    // {
+    //     title: "College",
+    //     company: "University of Ghana, Legon-Accra.",
+    //     year: "2015",
+    //     companyLink: "https://ug.edu,gh",
+    //     desc: "Subjects being CHN- I barely survived with 3.10 GPA. Flex fridays, fellas.",
+    // },
+];
+
 const About = () => {
     return (
         <div className="container px-4 mx-auto">
@@ -28,24 +75,94 @@ const About = () => {
                             </h2>
                             <div className="max-w-4xl mx-auto mt-5 antialiased">
                                 <img src={ userData.techstack } alt="mystack" className="object-fill-center h-full w-full " />
-                                {/* <div className="col-start-1 col-end-3">
-                                    <img src={ userData.techstack } alt="mystack" className="h-full w-full " />
-                                </div>
-                                <div className="col-end-7 col-span-2">
-                                    <img src={ userData.techstack1 } alt="mystack1" className="h-full w-full" />
-                                </div> */}
-                                
-                                {/*  */}
                             </div>
                         </section>
-                        {/* <div className="container px-4 mx-auto mt-16 antialiased">
-                                <h2 className="text-5xl font-bold text-gray-900 lg:text-3xl dark:text-white text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-sky-500">
-                                    Experience
-                                </h2>
-                                <div className="container">
-                                    <h2>{ userData.experience.title }</h2>
-                                </div>    
-                        </div> */}
+                        <aside className="container px-4 mx-auto mt-16 antialiased">
+                            <h2 className="text-5xl font-bold text-gray-900 lg:text-3xl dark:text-white text-transparent bg-clip-text bg-gradient-to-r from-pink-600 to-sky-500">
+                                Experience
+                            </h2>
+                            <div className="flex flex-col">
+                                <div className="my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+                                    <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
+                                        <div className="shadow overflow-hidden">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="flex flex-col">
+                                <div className="-my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
+                                    <div className="py-2 align-middle inline-block min-w-full sm:px-6 lg:px-8">
+                                        <div className="shadow overflow-hidden border-b border-gray-200 sm:rounded-lg">
+                                            <table className="min-w-full divide-y divide-gray-200">
+                                                <thead className="bg-gray-50">
+                                                    <tr>
+                                                        <th
+                                                            scope="col"
+                                                            className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                                                        >
+                                                            Company
+                                                        </th>
+                                                        <th
+                                                            scope="col"
+                                                            className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                                                        >
+                                                            Title
+                                                        </th>
+                                                        <th
+                                                            scope="col"
+                                                            className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                                                        >
+                                                            Year
+                                                        </th>
+                                                        <th
+                                                            scope="col"
+                                                            className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                                                        >
+                                                            CompanyLink
+                                                        </th>
+                                                        {/* <th scope="col" className="relative px-6 py-3">
+                                                            <span className="sr-only">Edit</span>
+                                                        </th> */}
+                                                    </tr>
+                                                </thead>
+                                                <tbody className="bg-white divide-y divide-gray-200">
+                                                    {experience.map(exp => (
+                                                    <tr key={exp.title}>
+                                                        <td className="px-6 py-4 whitespace-nowrap">
+                                                            <div className="flex items-center">
+                                                                {exp.company }
+                                                                {/* company goes here */}
+                                                            </div>
+                                                        </td>
+                                                        <td className="px-6 py-4 whitespace-nowrap">
+                                                            { exp.title }
+                                                            {/* title goes here */}
+                                                        </td>
+                                                        <td className="px-6 py-4 whitespace-nowrap">
+                                                            { exp.year }
+                                                            {/* year goes here */}
+                                                        </td>
+                                                        <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">
+                                                            <a href={ exp.companyLink } className="text-red-600 hover:text-blue-900">
+                                                                Visit site
+                                                            </a>
+                                                            {/* company link goes here */}
+                                                        </td>
+                                                        {/* <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+                                                            <a href={ exp.companyLink } className="text-indigo-600 hover:text-indigo-900">
+                                                                Edit
+                                                            </a>
+                                                        </td> */}
+                                                    </tr>
+                                                    ))}
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </aside>
                     </div>
                 </div>
                 <div className="flex-shrink-0 lg:mt-12 lg:px-4 mb-10">

@@ -34,7 +34,7 @@ const ProjectCard = ({ title, link, imgUrl, number }) => {
         <div className="h-72 object-cover">
           <img
             src={imgUrl}
-            alt="portfolio"
+            alt="project"
             className="transform hover:scale-125 transition duration-2000 ease-out object-cover h-full w-full"
           />
         </div>
